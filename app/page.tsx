@@ -233,7 +233,7 @@ const Home = () => {
               <Image
                 alt="Hotel Booking"
                 className="object-cover"
-                src="/hotel.jpg"
+                src="/Hotel.jpg"
               />
               <CardFooter className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
                 <DetailsForm modalBody='This Full-Stack web application, developed with React Next.js and JavaScript on the client-side, and Python, Django, and SQL on the server-side, simplifies worldwide hotel booking. Offering detailed descriptions, travelers can easily find accommodations matching their preferences and budget. Seamlessly integrated into travel planning, it streamlines the entire booking process for leisure, business, family trips, solo adventures, or any other purpose. Key features include extensive detailed property descriptions, flexible booking options, and secure payment processing, ensuring a smooth and secure experience for users.' loomLink='https://www.loom.com/share/ba4ebea2a093458797f5c7b35311a1b9?sid=cc2306df-489b-471d-b020-f33842dd3a47' gitHubLink='https://github.com/Kirthanaa07/23-25-Hack-Hotel-Booking-Server'>Details</DetailsForm>
