@@ -221,7 +221,7 @@ const Home = () => {
         </div>
         <div id="my-work" className="min-h-screen flex grow w-9/12 self-center p-4 justify-center items-center mt-[-80px] pt-[80px]">
           <div className='flex flex-row flex-wrap items-center justify-around flex-1 gap-4 gap-y-10'>
-            <h4> Below are the some projects I developed during my time at Nashville Software School, Some are group projects where I would as a team and took </h4>
+            <h4> Below are the projects I developed during my time at Nashville Software School. Through collaborative efforts, I gained invaluable experience in teamwork, problem-solving, and mutual support, while also showcasing my individual skills and expertise in solo projects. These experiences not only enhanced my technical abilities but also refined my ability to work effectively both independently and within a team environment. </h4>
             <Card
               isFooterBlurred
               radius="lg"
