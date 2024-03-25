@@ -1,11 +1,12 @@
 import React from "react";
 import { Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, Button, useDisclosure } from "@nextui-org/react";
 
-const DetailsForm = ({ modalBody = '', loomLink = '', gitHubLink = '', children }: { modalBody?: string, loomLink?: string, gitHubLink?: string, children?: React.ReactNode }) => {
+const DetailsForm1 = ({ modalBody = '', gitHubLink = '', tryIt = '', children }: { modalBody?: string, gitHubLink?: string, tryIt?: string, children?: React.ReactNode }) => {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
-  const handleLoomClick = () => {
-    // Open Loom video link in a new tab
-    window.open(loomLink, '');
+
+  const handleTryItClick = () => {
+    // Open GitHub link in a new tab
+    window.open(tryIt, '');
   };
 
   const handleGitHubClick = () => {
@@ -39,8 +40,8 @@ const DetailsForm = ({ modalBody = '', loomLink = '', gitHubLink = '', children 
                 </p>
               </ModalBody>
               <ModalFooter>
-                <Button className="bg-[#e2caeb] shadow-lg shadow-indigo-500/20" variant="light" onPress={handleLoomClick}>
-                  Loom Video
+                <Button className="bg-[#e2caeb] shadow-lg shadow-indigo-500/20" variant="light" onPress={handleTryItClick}>
+                  Try It
                 </Button>
                 <Button className="bg-[#e2caeb] shadow-lg shadow-indigo-500/20" onPress={handleGitHubClick}>
                   GitHub
@@ -54,4 +55,4 @@ const DetailsForm = ({ modalBody = '', loomLink = '', gitHubLink = '', children 
   );
 };
 
-export default DetailsForm;
+export default DetailsForm1;

@@ -2,6 +2,7 @@
 
 
 import DetailsForm from '@/components/detailsModel';
+import DetailsForm1 from '@/components/detailsModel1';
 import { Button, Card, CardBody, CardFooter, CardHeader, Image, Link, Navbar, NavbarContent, NavbarItem, Popover, PopoverContent, PopoverTrigger, Tooltip } from '@nextui-org/react';
 
 const Home = () => {
@@ -15,7 +16,7 @@ const Home = () => {
           <Link href="#skills" aria-current="page" color="secondary" className='p-4 grow justify-center hover:bg-[#e2caeb]'>
             Skills
           </Link>
-          <Link href="https://drive.google.com/file/d/12jUSVDprEdmTXNjzUVBVgzpf7V6qCHn3/view?usp=sharing" target="_blank" aria-current="page" color="secondary" className='p-4 grow justify-center hover:bg-[#e2caeb]'>
+          <Link href="https://drive.google.com/file/d/1kp-LKqcj3fBmGHCCrhlBdD7_BSQ5-Zgp/view?usp=sharing" target="_blank" aria-current="page" color="secondary" className='p-4 grow justify-center hover:bg-[#e2caeb]'>
             Resume
           </Link>
           <Link href="#my-work" aria-current="page" color="secondary" className='p-4 grow justify-center hover:bg-[#e2caeb]'>
@@ -47,25 +48,25 @@ const Home = () => {
               <svg className="w-8 h-8 text-stone-100" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" /></svg>
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center pr-2 ml-[-100px] hover:ml-[0px] hover:pl-[8px] text-white duration-300 bg-[#f35073]">
+          {/* <li className="w-[160px] h-[60px] flex justify-between items-center pr-2 ml-[-100px] hover:ml-[0px] hover:pl-[8px] text-white duration-300 bg-[#f35073]">
             <a
               className="flex items-center justify-between w-full text-black-300"
-              href="https://github.com/Kirthanaa07"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Email
+              Email - kirthanaa07@gmail.com
               <svg className="w-8 h-8 text-neutral-100" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z" />  <rect x="3" y="5" width="18" height="14" rx="2" />  <polyline points="3 7 12 13 21 7" /></svg>
             </a>
-          </li>
+          </li>*/}
           <li className="w-[160px] h-[60px] flex justify-between items-center pr-2 ml-[-100px] hover:ml-[0px] hover:pl-[8px] text-white duration-300 bg-[#3d6423]">
             <a
               className="flex items-center justify-between w-full text-black-300"
-              href="https://github.com/Kirthanaa07"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Contact
+              615-584-1820
               <svg className="w-8 h-8 text-neutral-100" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">  <path d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" /></svg>
             </a>
           </li>
@@ -101,7 +102,7 @@ const Home = () => {
                 src="/credTrack.jpg"
               />
               <CardFooter className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
-                <DetailsForm modalBody='My frontend capstone project, CredTrack, represents a significant milestone in my journey as a software developer. This innovative application, developed using React.js, JavaScript, HTML, CSS, and Bootstrap, addresses a critical need in the healthcare industry. CredTrack serves as a comprehensive physician credentialing solution that allows both the public and registered users to access physicians profiles and credentials. Users can seamlessly request to become a physician, initiating a process overseen by administrators.' tryIt='https://kirthana-frontendcapstone-credtrack.netlify.app/' gitHubLink='https://github.com/Kirthanaa07'>Details</DetailsForm>
+                <DetailsForm1 modalBody='My frontend capstone project, CredTrack, represents a significant milestone in my journey as a software developer. This innovative application, developed using React.js, JavaScript, HTML, CSS, and Bootstrap, addresses a critical need in the healthcare industry. CredTrack serves as a comprehensive physician credentialing solution that allows both the public and registered users to access physicians profiles and credentials. Users can seamlessly request to become a physician, initiating a process overseen by administrators.' tryIt='https://kirthana-frontendcapstone-credtrack.netlify.app/' gitHubLink='https://github.com/Kirthanaa07/Front-End-Capstone-CredTrack'>Details</DetailsForm1>
               </CardFooter>
             </Card>
             <Card
@@ -111,7 +112,7 @@ const Home = () => {
             >
               <CardHeader className="flex-col items-start px-4 pt-2 pb-0">
                 <p className="font-bold uppercase text-tiny">Trials Track</p>
-                <small className="text-default-500">Backend - Full-Stack Capstone</small>
+                <small className="text-default-500">Backend Capstone - Full-Stack</small>
               </CardHeader>
               <Image
                 alt="BackEnd capstone"
@@ -119,7 +120,7 @@ const Home = () => {
                 src="/trialsTrack.jpg"
               />
               <CardFooter className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
-                <DetailsForm modalBody='My backend capstone project, marks a pivotal achievement in my software development journey, integrating React.js, Python with Django, SQL, NextUI, and Tailwind CSS. This innovative solution empowers administrators with robust CRUD capabilities for overseeing global trials and associated locations. Leveraging two external APIs – one for retrieving trials via NCT numbers and another for Google Maps integration displaying trial locations – enhances functionality. Meanwhile, researchers are restricted to accessing trials and locations they are associated with, ensuring data integrity. With its contemporary interface and secure architecture, Trials Track optimizes healthcare management, facilitating streamlined trial oversight and research progress.' loomLink='#' gitHubLink='#'>Details</DetailsForm>
+                <DetailsForm1 modalBody='My backend capstone project, marks a pivotal achievement in my software development journey, integrating React.js, Python with Django, SQL, NextUI, and Tailwind CSS. This innovative solution empowers administrators with robust CRUD capabilities for overseeing global trials and associated locations. Leveraging two external APIs – one for retrieving trials via NCT numbers and another for Google Maps integration displaying trial locations – enhances functionality. Meanwhile, researchers are restricted to accessing trials and locations they are associated with, ensuring data integrity. With its contemporary interface and secure architecture, Trials Track optimizes healthcare management, facilitating streamlined trial oversight and research progress.' tryIt='https://trials-track.vercel.app/' gitHubLink='https://github.com/Kirthanaa07/TrialsTrack-Client'>Details</DetailsForm1>
               </CardFooter>
             </Card>
           </div>
@@ -235,7 +236,7 @@ const Home = () => {
                 src="/hotel.jpg"
               />
               <CardFooter className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
-                <DetailsForm modalBody='This Full-Stack web application, developed with React Next.js and JavaScript on the client-side, and Python, Django, and SQL on the server-side, simplifies worldwide hotel booking. Offering detailed descriptions, travelers can easily find accommodations matching their preferences and budget. Seamlessly integrated into travel planning, it streamlines the entire booking process for leisure, business, family trips, solo adventures, or any other purpose. Key features include extensive detailed property descriptions, flexible booking options, and secure payment processing, ensuring a smooth and secure experience for users.' loomLink='#' gitHubLink='#'>Details</DetailsForm>
+                <DetailsForm modalBody='This Full-Stack web application, developed with React Next.js and JavaScript on the client-side, and Python, Django, and SQL on the server-side, simplifies worldwide hotel booking. Offering detailed descriptions, travelers can easily find accommodations matching their preferences and budget. Seamlessly integrated into travel planning, it streamlines the entire booking process for leisure, business, family trips, solo adventures, or any other purpose. Key features include extensive detailed property descriptions, flexible booking options, and secure payment processing, ensuring a smooth and secure experience for users.' loomLink='https://www.loom.com/share/ba4ebea2a093458797f5c7b35311a1b9?sid=cc2306df-489b-471d-b020-f33842dd3a47' gitHubLink='https://github.com/Kirthanaa07/23-25-Hack-Hotel-Booking-Server'>Details</DetailsForm>
               </CardFooter>
             </Card>
             <Card
@@ -255,7 +256,7 @@ const Home = () => {
                 />
               </CardBody>
               <CardFooter className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
-                <DetailsForm modalBody='Beat Bite Bistro is a full-stack application utilizing React.js, Python with Django, HTML, CSS, and SQL, specifically designed as a Point of Sale (POS) system tailored for tablet devices. This innovative solution aims to streamline the order process for the bistro, enhancing customer experience and efficiency. With its user-friendly interface and robust backend functionalities, Beat Bite Bistro revolutionizes the way orders are managed, providing a seamless and enjoyable experience for both staff and customers alike.' loomLink='#' gitHubLink='#'>Details</DetailsForm>
+                <DetailsForm modalBody='Beat Bite Bistro is a full-stack application utilizing React.js, Python with Django, HTML, CSS, and SQL, specifically designed as a Point of Sale (POS) system tailored for tablet devices. This innovative solution aims to streamline the order process for the bistro, enhancing customer experience and efficiency. With its user-friendly interface and robust backend functionalities, Beat Bite Bistro revolutionizes the way orders are managed, providing a seamless and enjoyable experience for both staff and customers alike.' loomLink='https://www.loom.com/share/8dc259278bfc445db9f4309aad8dcb25?sid=4d650e14-352b-4382-bb54-e2eacffba99d' gitHubLink='https://github.com/Kirthanaa07/BeatBite-Bistro-Client'>Details</DetailsForm>
               </CardFooter>
             </Card>
             <Card
@@ -275,7 +276,7 @@ const Home = () => {
                 />
               </CardBody>
               <CardFooter className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
-                <DetailsForm modalBody='Vocab-YOU-lary is a front-end application developed with React.js, HTML, JavaScript, and CSS, empowering users to create and manage vocabularies with ease. With options to set vocabularies as private or public, users can control access to their content. The app offers functionalities for creating, updating, and deleting vocabularies, as well as enabling users to create categories for better organization. With its intuitive interface and versatile features, Vocab-YOU-lary enhances the learning experience for users, providing a seamless platform for vocabulary management.' loomLink='#' gitHubLink='#'>Details</DetailsForm>
+                <DetailsForm1 modalBody='Vocab-YOU-lary is a front-end application developed with React.js, HTML, JavaScript, and CSS, empowering users to create and manage vocabularies with ease. With options to set vocabularies as private or public, users can control access to their content. The app offers functionalities for creating, updating, and deleting vocabularies, as well as enabling users to create categories for better organization. With its intuitive interface and versatile features, Vocab-YOU-lary enhances the learning experience for users, providing a seamless platform for vocabulary management.' tryIt='https://kirthuvocabulary.netlify.app/' gitHubLink='https://github.com/Kirthanaa07/INDIVIDUAL-ASSESSMENT-vocab-YOU-lary'>Details</DetailsForm1>
               </CardFooter>
             </Card>
             <Card
@@ -295,7 +296,7 @@ const Home = () => {
                 />
               </CardBody>
               <CardFooter className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
-                <DetailsForm modalBody='Tic-tac-toe is an exciting gaming application crafted with React.js, HTML, JavaScript, and CSS, offering users the classic game experience with a challenging twist. Users can enjoy matches against the computer, meticulously designed to provide a formidable opponent thats nearly unbeatable. With its intuitive interface and clever algorithms, the game ensures a thrilling challenge for players seeking to test their strategic skills. Give it a try and see if you can outsmart the computer in this timeless battle of wits!' loomLink='#' gitHubLink='#'>Details</DetailsForm>
+                <DetailsForm1 modalBody='Tic-tac-toe is an exciting gaming application crafted with React.js, HTML, JavaScript, and CSS, offering users the classic game experience with a challenging twist. Users can enjoy matches against the computer, meticulously designed to provide a formidable opponent thats nearly unbeatable. With its intuitive interface and clever algorithms, the game ensures a thrilling challenge for players seeking to test their strategic skills. Give it a try and see if you can outsmart the computer in this timeless battle of wits!' tryIt='https://kirthu-tic-tac-toe.netlify.app' gitHubLink='https://github.com/Kirthanaa07/Tic-Tac-Toe'>Details</DetailsForm1>
               </CardFooter>
             </Card>
             <Card
@@ -315,7 +316,7 @@ const Home = () => {
                 />
               </CardBody>
               <CardFooter className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
-                <DetailsForm modalBody='Sorting Hat is an engaging application crafted with React.js, HTML, JavaScript, and CSS, offering users the whimsical experience of adding new first-year students and randomly assigning them to houses. Users can immerse themselves in the enchanting world of Hogwarts by assigning students to Gryffindor, Hufflepuff, Ravenclaw, or Slytherin. Additionally, the application provides users with the option to expel students to Voldemorts Army for added fun and mischief. With its playful interface and interactive features, Sorting Hat brings the magic of the wizarding world to life, inviting users to embark on their own Hogwarts adventure.' loomLink='#' gitHubLink='#'>Details</DetailsForm>
+                <DetailsForm1 modalBody='Sorting Hat is an engaging application crafted with React.js, HTML, JavaScript, and CSS, offering users the whimsical experience of adding new first-year students and randomly assigning them to houses. Users can immerse themselves in the enchanting world of Hogwarts by assigning students to Gryffindor, Hufflepuff, Ravenclaw, or Slytherin. Additionally, the application provides users with the option to expel students to Voldemorts Army for added fun and mischief. With its playful interface and interactive features, Sorting Hat brings the magic of the wizarding world to life, inviting users to embark on their own Hogwarts adventure.' tryIt='https://kirthu-sortinghat.netlify.app' gitHubLink='https://github.com/Kirthanaa07/INDIVIDUAL-PROJECT-sorting-hat'>Details</DetailsForm1>
               </CardFooter>
             </Card>
           </div>
