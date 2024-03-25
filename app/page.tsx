@@ -221,6 +221,7 @@ const Home = () => {
         </div>
         <div id="my-work" className="min-h-screen flex grow w-9/12 self-center p-4 justify-center items-center mt-[-80px] pt-[80px]">
           <div className='flex flex-row flex-wrap items-center justify-around flex-1 gap-4 gap-y-10'>
+            <h4> Below are the some projects I developed during my time at Nashville Software School, Some are group projects where I would as a team and took </h4>
             <Card
               isFooterBlurred
               radius="lg"
