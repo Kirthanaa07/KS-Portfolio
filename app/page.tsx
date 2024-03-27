@@ -217,6 +217,63 @@ const Home = () => {
                 width={100}
               />
             </Tooltip>
+            <Tooltip content="Netlify">
+              <Image
+                isZoomed
+                alt="html"
+                className="object-cover rounded-xl"
+                src="/netlify.png"
+                width={100}
+              />
+            </Tooltip>
+            <Tooltip content="PostgreSQL">
+              <Image
+                isZoomed
+                alt="html"
+                className="object-cover rounded-xl"
+                src="/postgresql.png"
+                width={100}
+              />
+            </Tooltip>
+            <Tooltip content="Typescript">
+              <Image
+                isZoomed
+                alt="html"
+                className="object-cover rounded-xl"
+                src="/typescript.png"
+                width={100}
+              />
+            </Tooltip>
+            <Tooltip
+              content="C Sharp">
+              <Image
+                isZoomed
+                alt="html"
+                className="object-cover rounded-xl"
+                src="/c.png"
+                width={100}
+              />
+            </Tooltip>
+            <Tooltip
+              content=".NET">
+              <Image
+                isZoomed
+                alt="html"
+                className="object-cover rounded-xl"
+                src="/net.png"
+                width={100}
+              />
+            </Tooltip>
+            <Tooltip
+              content="Vercel">
+              <Image
+                isZoomed
+                alt="html"
+                className="object-cover rounded-xl"
+                src="/vercel.jpeg"
+                width={100}
+              />
+            </Tooltip>
           </div>
         </div>
         <div id="my-work" className="min-h-screen flex grow w-9/12 self-center p-4 justify-center items-center mt-[-80px] pt-[80px]">
