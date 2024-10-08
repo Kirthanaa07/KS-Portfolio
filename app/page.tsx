@@ -82,7 +82,7 @@ const Home = () => {
               <div className="mb-8">
                 <div className="text-[#ce8ee7] font-bold text-xl mb-2">Hi, I am  Kirthana Sukumaran</div>
                 <p className="mb-3 text-base italic text-gray-700">A full-stack software developer located in Nashville, TN.</p>
-                <div className='text-base text-gray-700'>As a dedicated stay-at-home mom, I embarked on an inspiring journey to fulfill my passion for technology and software development. Armed with a Master of Computer Application (MCA) degree and having previously contributed two years as an Associate Engineer at Virtusa, I decided to pivot my career. My experience in production support equipped me with valuable problem-solving and technical skills, which I am now eager to leverage in the field of software development. This transition represents not only my commitment to personal and professional growth but also my unwavering dedication to providing the best opportunities for my family. With a foundation in engineering, a love for coding, and a strong work ethic, I am excited to embark on this new chapter as I strive to become a successful software developer.</div>
+                <div className='text-base text-gray-700'>A software developer with a Masters in Computer Application and two years as an Associate Engineer at Virtusa, now focused on coding and problem-solving. Currently working as a Junior Instructor, making complex topics easy to understand and creating practical lessons that help students grow. Passionate about learning new things and always looking for ways to improve, with a goal of making an impact in the tech world.</div>
               </div>
             </div>
           </div>
@@ -271,6 +271,16 @@ const Home = () => {
                 alt="html"
                 className="object-cover rounded-xl"
                 src="/vercel.jpeg"
+                width={100}
+              />
+            </Tooltip>
+            <Tooltip
+              content="Render.com">
+              <Image
+                isZoomed
+                alt="html"
+                className="object-cover rounded-xl"
+                src="/render.jpg"
                 width={100}
               />
             </Tooltip>
